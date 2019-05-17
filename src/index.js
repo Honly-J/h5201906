@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
+import 'lib-flexible'
 import App from './App';
 import * as serviceWorker from './serviceWorker'
 
-import {rem} from './utils'
 
 ReactDOM.render((
     <App />
